@@ -47,7 +47,7 @@ class IrisDataProcessor:
         y = self.df['target']
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-        return self.X_train, self.X_test, self.y_train, self.y_test , df
+        return self.X_train, self.X_test, self.y_train, self.y_test , self.df
 
     def get_feature_stats(self):
         return self.df.describe()
