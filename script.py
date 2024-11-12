@@ -14,7 +14,6 @@ Conversion of data to pandas DataFrame with proper column names
 """
 
 # Required Libraries
-!pip install mlflow
 from sklearn.datasets import load_iris
 import pandas as pd
 import numpy as np
